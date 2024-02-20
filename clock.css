@@ -1,0 +1,105 @@
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+.container {
+    border: 2px solid orange;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 510px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 5px orange;
+    border-radius: 15px;
+    height: 200px;
+    width: 500px;
+}
+
+.conatiner2 {
+    padding: 10px 20px;
+}
+
+.clock {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.clocltime {
+    margin-left: 55px;
+    font-size: 30px;
+}
+
+.setalarm {
+    padding: 10px 20px;
+    /* width: 1%; */
+}
+
+.inputbox {
+    height: 20px;
+    width: 20%;
+    border: 2px solid orange;
+    color: orange;
+    text-align: center;
+}
+
+.inputbox::placeholder {
+    color: orange;
+}
+
+#button {
+    height: 30px;
+    background: #fff;
+    margin-left: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#button:hover {
+    box-shadow: 2px 2px 5px orange;
+}
+
+#stop {
+    height: 30px;
+    background: #fff;
+    border: 2px solid orange;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#stop:hover {
+    box-shadow: 2px 2px 5px orange;
+}
+
+@media (max-width:400px) {
+    .container {
+        margin-left: 10px;
+        width: 310px;
+    }
+
+    .clocltime {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .inputbox {
+        height: 20px;
+        width: 30%;
+        border: 2px solid orange;
+        color: orange;
+        text-align: center;
+    }
+
+    #button {
+        height: 25px;
+    }
+    #stop{
+        height: 25px;
+    }
+}
